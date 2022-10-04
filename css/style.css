@@ -1,10 +1,30 @@
 body {
-    color: #79D28E;
+    color: #93e0a5;
     background: #081306;
     font-family: 'IBM Plex Sans', sans-serif;
+    letter-spacing: 0.15rem;
     /* font-family: 'Montserrat', sans-serif; */
 }
 
 header h1, p {
     text-align: center;
+}
+
+header h1 {
+    margin: 5rem 0 3rem 0;
+    color: #b5e8c1;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+header {
+    padding-bottom: 4.5rem;
+    border-bottom: 0.1rem solid #0c1e09;
+}
+
+upper {
+    width: 1200px;
 }
