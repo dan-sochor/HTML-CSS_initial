@@ -6,6 +6,18 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
 }
 
+/* FLOAT RESET */
+
+.group:before,
+.group:after {
+    content: " "; 
+    display: table; 
+}
+
+.group:after {
+    clear: both;
+}
+
 header h1, p {
     text-align: center;
 }
