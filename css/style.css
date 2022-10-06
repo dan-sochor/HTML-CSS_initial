@@ -84,6 +84,7 @@ textarea {
 
 input[type="text"],
 input[type="email"],
+input[type="date"],
 textarea {
     background: #deedc5;
 }
@@ -97,4 +98,29 @@ input[type="reset"] {
 
 input[type="date"] {
     width: 12rem;
+}
+
+.button {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.button-second {
+    background: #081306;
+    border: #deedc5 solid .5px;
+    color: #deedc5;
+}
+
+.button-second:hover {
+    background: #0d1f0a;
+}
+
+input[type="submit"]{
+    background: #93e0a5;
+}
+
+input[type="submit"]:hover{
+    background: #deedc5;
 }
