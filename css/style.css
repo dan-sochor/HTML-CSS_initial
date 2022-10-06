@@ -46,6 +46,10 @@ upper {
     margin: 5rem 0 10rem 5rem;
 }
 
+.pull-felt {
+    float: left;
+}
+
 textarea {
     display: block;
     width: 35rem;
@@ -105,12 +109,12 @@ input[type="date"] {
     text-transform: uppercase;
     font-style: normal;
     cursor: pointer;
+    color:#deedc5;
 }
 
 .button-second {
     background: #081306;
     border: #deedc5 solid .5px;
-    color: #deedc5;
 }
 
 .button-second:hover {
@@ -118,9 +122,10 @@ input[type="date"] {
 }
 
 input[type="submit"]{
-    background: #93e0a5;
+    background: #886350
 }
 
 input[type="submit"]:hover{
-    background: #deedc5;
+    background: #081306;
+    border: #deedc5 solid .5px;
 }
