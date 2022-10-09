@@ -36,10 +36,11 @@ header {
     padding-bottom: 4.5rem;
     border-bottom: 0.1rem solid #0c1e09;
 }
-
-upper {
+/* 
+.upper {
     width: 1200px;
-}
+} */
+
 
 .container {
     width: 40rem;
@@ -162,3 +163,6 @@ a {
     color: #93e0a5; 
 }
 
+.social section {
+    float: left;
+}
