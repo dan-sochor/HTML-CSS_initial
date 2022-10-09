@@ -130,6 +130,16 @@ input[type="submit"]:hover{
     border: #deedc5 solid .5px;
 }
 
-li {
+/* li {
     list-style: none;
+    display: block;
+} */
+
+h3 {
+    display: inline;
 }
+
+section > p {
+    text-align: left;
+}
+
