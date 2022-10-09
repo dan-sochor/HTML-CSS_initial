@@ -135,9 +135,10 @@ input[type="submit"]:hover{
     display: block;
 } */
 
-h3 {
-    display: inline;
-}
+/* h3 {
+    display: inline-block;
+    margin: 0;
+} */
 
 section > p {
     text-align: left;
@@ -149,4 +150,6 @@ svg {
     padding: 12px;
     border-radius: 50%;
     background: #0d1f0a;
+    margin-right: 1rem;
 }
+
