@@ -129,3 +129,7 @@ input[type="submit"]:hover{
     background: #081306;
     border: #deedc5 solid .5px;
 }
+
+li {
+    list-style: none;
+}
