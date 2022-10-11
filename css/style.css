@@ -43,7 +43,7 @@ header {
 
 
 .container {
-    width: 40rem;
+    width: 38rem;
     margin: 5rem 0 10rem 5rem;
 }
 
@@ -136,6 +136,10 @@ input[type="submit"]:hover{
     display: block;
 } */
 
+.social {
+    width: 570px;
+}
+
 h3 {
     display: block;
     margin: 0;
@@ -144,6 +148,7 @@ h3 {
 
 section > p {
     text-align: left;
+    line-height: 1.5rem;
 }
 
 svg {
@@ -153,10 +158,7 @@ svg {
     border-radius: 20%;
     background: #0d1f0a;
     margin-right: 1rem;
-}
-
-section > p {
-    line-height: 1.5rem;
+    vertical-align: middle;
 }
 
 a {
@@ -165,4 +167,8 @@ a {
 
 .social section {
     float: left;
+}
+
+section {
+    margin-right: 3rem;
 }
